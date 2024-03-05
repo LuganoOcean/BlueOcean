@@ -1,0 +1,24 @@
+.grid {
+    display: grid;
+    gap: 5px;
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .grid--1x2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid--1x3 {
+        grid-template-columns: repeat(3, minmax(0, 130px));
+        gap: 5px;
+    }
+}
+
+@media (max-width: 1023px){
+    .grid{
+        display: flex;
+    }
+}

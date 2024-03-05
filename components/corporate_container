@@ -1,0 +1,8 @@
+<div class="corporate-container">
+  <div class="corporate-name">Blue Ocean Industries</div>
+  <img
+    src="images/Corporate Logo_transparent.png"
+    alt="Corporate Logo"
+    class="corporate-logo"
+  />
+</div>
